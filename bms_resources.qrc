@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>Gui-png/bluetooth1.png</file>
+    <file>Gui-png/lte1.png</file>
+    <file>Gui-png/ev_bms_reference_match.png</file>
+    <file>Gui-png/windshield_defrost_rear_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/widgets_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/warning_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/volume_up_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/verified_user_24dp_75FB4C_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/toys_fan_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/thermometer_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/settings_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/home.png</file>
+    <file>Gui-png/history_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/grid_4x4_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/directions_car.png</file>
+    <file>Gui-png/device_thermostat_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/cool_to_dry_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/battery_charging_full_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/battery_6_bar_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/arrow_forward_ios_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>Gui-png/arrow_back_ios_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png</file>
+  </qresource>
+</RCC>
