@@ -424,23 +424,20 @@ class Ui_Form(object):
         self.label_40 = QtWidgets.QLabel(self.frame_4)
         self.label_40.setGeometry(QtCore.QRect(30, 120, 181, 17))
         self.label_40.setObjectName("label_40")
-        self.label_41 = QtWidgets.QLabel(self.frame_4)
-        self.label_41.setGeometry(QtCore.QRect(30, 150, 41, 17))
+        self.txt_distance = QtWidgets.QLabel(self.frame_4)
+        self.txt_distance.setGeometry(QtCore.QRect(30, 150, 41, 17))
         font = QtGui.QFont()
         font.setPointSize(-1)
         font.setBold(True)
         font.setWeight(75)
-        self.label_41.setFont(font)
-        self.label_41.setStyleSheet("QLabel {\n"
+        self.txt_distance.setFont(font)
+        self.txt_distance.setStyleSheet("QLabel {\n"
 "    color: #0ea5e9; /* Màu xanh dương sáng */\n"
 "    font-weight: bold;\n"
 "    font-size: 16px;\n"
 "    background-color: transparent;\n"
 "}")
-        self.label_41.setObjectName("label_41")
-        self.label_42 = QtWidgets.QLabel(self.frame_4)
-        self.label_42.setGeometry(QtCore.QRect(70, 150, 67, 17))
-        self.label_42.setObjectName("label_42")
+        self.txt_distance.setObjectName("txt_distance")
         self.label_23 = QtWidgets.QLabel(self.frame_4)
         self.label_23.setGeometry(QtCore.QRect(390, 30, 121, 21))
         font = QtGui.QFont()
@@ -565,9 +562,9 @@ class Ui_Form(object):
         font.setPointSize(14)
         self.txt_total_volt.setFont(font)
         self.txt_total_volt.setObjectName("txt_total_volt")
-        self.chart_voltage = QtWidgets.QWidget(self.frame_10)
-        self.chart_voltage.setGeometry(QtCore.QRect(10, 40, 311, 101))
-        self.chart_voltage.setObjectName("chart_voltage")
+        self.frame_chart = QtWidgets.QWidget(self.frame_10)
+        self.frame_chart.setGeometry(QtCore.QRect(10, 40, 311, 101))
+        self.frame_chart.setObjectName("frame_chart")
         self.frame_11 = QtWidgets.QFrame(self.frame_6)
         self.frame_11.setGeometry(QtCore.QRect(0, 0, 350, 191))
         self.frame_11.setStyleSheet("QFrame {\n"
@@ -658,9 +655,6 @@ class Ui_Form(object):
         self.label_29 = QtWidgets.QLabel(self.frame_11)
         self.label_29.setGeometry(QtCore.QRect(10, 130, 81, 17))
         self.label_29.setObjectName("label_29")
-        self.label_30 = QtWidgets.QLabel(self.frame_11)
-        self.label_30.setGeometry(QtCore.QRect(230, 130, 81, 17))
-        self.label_30.setObjectName("label_30")
         self.label_31 = QtWidgets.QLabel(self.frame_11)
         self.label_31.setGeometry(QtCore.QRect(20, 156, 61, 31))
         self.label_31.setStyleSheet("QLabel {\n"
@@ -670,9 +664,6 @@ class Ui_Form(object):
 "    font-size: 24px; /* Phóng to số lên nếu cần */\n"
 "}")
         self.label_31.setObjectName("label_31")
-        self.label_32 = QtWidgets.QLabel(self.frame_11)
-        self.label_32.setGeometry(QtCore.QRect(230, 160, 91, 17))
-        self.label_32.setObjectName("label_32")
         self.frame_12 = QtWidgets.QFrame(self.frame_6)
         self.frame_12.setGeometry(QtCore.QRect(0, 190, 341, 131))
         self.frame_12.setStyleSheet("QFrame {\n"
@@ -711,7 +702,7 @@ class Ui_Form(object):
         self.bar_temperature.setProperty("value", 80)
         self.bar_temperature.setObjectName("bar_temperature")
         self.label_33 = QtWidgets.QLabel(self.frame_12)
-        self.label_33.setGeometry(QtCore.QRect(10, 10, 91, 17))
+        self.label_33.setGeometry(QtCore.QRect(10, 30, 91, 17))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.label_33.setFont(font)
@@ -731,7 +722,7 @@ class Ui_Form(object):
         self.label_37.setPixmap(QtGui.QPixmap("Gui-png/thermometer_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"))
         self.label_37.setObjectName("label_37")
         self.txt_temperature = QtWidgets.QLabel(self.frame_12)
-        self.txt_temperature.setGeometry(QtCore.QRect(220, 20, 67, 17))
+        self.txt_temperature.setGeometry(QtCore.QRect(220, 30, 67, 17))
         font = QtGui.QFont()
         font.setPointSize(14)
         self.txt_temperature.setFont(font)
@@ -1051,9 +1042,8 @@ class Ui_Form(object):
         self.label_43.setText(_translate("Form", "10:30"))
         self.label_38.setText(_translate("Form", "SOC"))
         self.txt_soc_total.setText(_translate("Form", "73%"))
-        self.label_40.setText(_translate("Form", "Quãng đường ước tính"))
-        self.label_41.setText(_translate("Form", "312"))
-        self.label_42.setText(_translate("Form", "Km"))
+        self.label_40.setText(_translate("Form", "Tốc độ"))
+        self.txt_distance.setText(_translate("Form", "312"))
         self.label_23.setText(_translate("Form", "Dòng điện"))
         self.txt_current.setText(_translate("Form", "36A"))
         self.label_2.setText(_translate("Form", "Cell 1"))
@@ -1068,9 +1058,7 @@ class Ui_Form(object):
         self.txt_soh_total.setText(_translate("Form", "93%"))
         self.txt_degradation.setText(_translate("Form", "6.8%"))
         self.label_29.setText(_translate("Form", "Tình trạng"))
-        self.label_30.setText(_translate("Form", "Chu kì sạc"))
         self.label_31.setText(_translate("Form", "Tốt"))
-        self.label_32.setText(_translate("Form", "136 chu kỳ"))
         self.label_33.setText(_translate("Form", "Nhiệt độ"))
         self.label_34.setText(_translate("Form", "L"))
         self.label_35.setText(_translate("Form", "M"))
@@ -1095,13 +1083,3 @@ class Ui_Form(object):
         self.label_19.setText(_translate("Form", "SOH"))
         self.txt_soh_cell4.setText(_translate("Form", "96%"))
 import bms_resources_rc
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    Form = QtWidgets.QWidget()
-    ui = Ui_Form()
-    ui.setupUi(Form)
-    Form.show()
-    sys.exit(app.exec_())

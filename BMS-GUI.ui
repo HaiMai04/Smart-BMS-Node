@@ -731,10 +731,10 @@ QProgressBar::chunk {
      </rect>
     </property>
     <property name="text">
-     <string>Quãng đường ước tính</string>
+     <string>Tốc độ</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_41">
+   <widget class="QLabel" name="txt_distance">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -760,19 +760,6 @@ QProgressBar::chunk {
     </property>
     <property name="text">
      <string>312</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_42">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>150</y>
-      <width>67</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Km</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_23">
@@ -1053,7 +1040,7 @@ QLabel {
       <string>36A</string>
      </property>
     </widget>
-    <widget class="QWidget" name="chart_voltage" native="true">
+    <widget class="QWidget" name="frame_chart" native="true">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -1253,19 +1240,6 @@ QProgressBar::chunk {
       <string>Tình trạng</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_30">
-     <property name="geometry">
-      <rect>
-       <x>230</x>
-       <y>130</y>
-       <width>81</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Chu kì sạc</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_31">
      <property name="geometry">
       <rect>
@@ -1285,19 +1259,6 @@ QProgressBar::chunk {
      </property>
      <property name="text">
       <string>Tốt</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_32">
-     <property name="geometry">
-      <rect>
-       <x>230</x>
-       <y>160</y>
-       <width>91</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>136 chu kỳ</string>
      </property>
     </widget>
    </widget>
